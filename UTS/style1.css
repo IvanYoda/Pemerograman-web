@@ -1,0 +1,112 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background2.jpg'); /* Ganti 'background-image.jpg' dengan URL gambar yang Anda inginkan */
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* Ubah warna teks utama */
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #000000; /* Ubah warna teks judul */
+    border-bottom: 2px solid #000000; /* Tambahkan garis bawah */
+    padding-bottom: 10px; /* Beri jarak bawah untuk memisahkan dari konten */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.button-group {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7300;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #06b300;
+}

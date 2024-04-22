@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background2.jpg'); /* Ganti 'background-image.jpg' dengan URL gambar yang Anda inginkan */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    text-align: center; /* Tengahkan semua elemen di dalam form */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center; /* Tengahkan label */
+}
+
+select,
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Tengahkan isi dari pilihan barang, nama, dan jumlah */
+}
+
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7300;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #06b300;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Memberikan margin bawah untuk logo dan tengahkan secara horizontal */
+    max-width: 500px; /* Sesuaikan lebar maksimum logo */
+    align-items: center;
+}
+

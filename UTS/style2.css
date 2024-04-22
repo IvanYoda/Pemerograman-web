@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background2.jpg'); /* Tambahkan URL gambar background di sini */
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative; /* Tambahkan posisi relatif */
+}
+
+.logo {
+    position: absolute; /* Tambahkan posisi absolut */
+    top: 20px; /* Atur jarak dari atas */
+    left: 20px; /* Atur jarak dari kiri */
+    width: 100px; /* Atur lebar logo */
+    height: auto; /* Biarkan tinggi mengikuti proporsi aslinya */
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.total hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.total h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7300;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+    background-color: #06b300;
+}
